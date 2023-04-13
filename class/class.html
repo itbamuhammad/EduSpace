@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,200;0,300;0,400;0,600;1,200;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>EduSpace - Kelas UTBK</title>
+    <link rel="stylesheet" href="style-class.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="#">
+                <img src="logo.png" alt="Nama Logo">
+            </a>
+        </div>
+        <div class="header__title">
+            <h1 class="header__title-text">Kelas</h1>
+        </div>
+        <button class="header__menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav header__menu-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kelas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Try Out dan Bank Soal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Live Class</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Forum</a>
+                </li>
+            </ul>
+        </div> -->
+    </header>
+
+
+    <main>
+        <h1>Kelas UTBK</h1>
+        <nav class="tab">
+            <ul>
+                <li><a href="#kelas-x" class="active">Kelas X</a></li>
+                <li><a href="#kelas-xi">Kelas XI</a></li>
+                <li><a href="#kelas-xii">Kelas XII</a></li>
+                <li><a href="#utbk">UTBK</a></li>
+                <li><a href="#ujian-mandiri">Ujian Mandiri</a></li>
+            </ul>
+        </nav>
+
+        <div class="tab-content">
+            <!-- Kelas X content -->
+            <div class="tab-pane active" id="kelas-x">
+                <h2>Kelas X</h2>
+                <!-- content here -->
+            </div>
+
+            <!-- Kelas XI content -->
+            <div class="tab-pane" id="kelas-xi">
+                <h2>Kelas XI</h2>
+                <!-- content here -->
+            </div>
+
+            <!-- Kelas XII content -->
+            <div class="tab-pane" id="kelas-xii">
+                <h2>Kelas XII</h2>
+                <!-- content here -->
+            </div>
+
+            <!-- UTBK content -->
+            <div class="tab-pane" id="utbk">
+                <h2>UTBK</h2>
+                <nav class="sub-tab">
+                    <ul>
+                        <li><a href="#tps" class="active">Tes Potensi Skolastik</a></li>
+                        <li><a href="#tl">Tes Literasi</a></li>
+                    </ul>
+                </nav>
+
+                <div class="sub-tab-content">
+                    <!-- Tes Potensi Skolastik content -->
+                    <div class="sub-tab-pane active" id="tps">
+                        <h3>Tes Potensi Skolastik</h3>
+                        <nav class="sub-tab">
+                            <ul>
+                                <li><a href="#kpu" class="active">Kemampuan Penalaran Umum</a></li>
+                                <li><a href="#pu">Pemahaman Umum</a></li>
+                                <li><a href="#kmbm">Kemampuan Memahami Bacaan dan Menulis</a></li>
+                                <li><a href="#pk">Pengetahuan Kuantitatif</a></li>
+                            </ul>
+                        </nav>
+                        <div class="sub-tab-content">
+                            <!-- Kemampuan Penalaran Umum content -->
+                            <div class="sub-tab-pane active" id="kpu">
+                                <h4>Kemampuan Penalaran Umum</h4>
+                                
+                                <!-- video here -->
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/CYDDSBuw4C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <!-- Pemahaman Umum content -->
+                            <div class="sub-tab-pane" id="pu">
+                                <h4>Pemahaman Umum</h4>
+                                <!-- video here -->
+                                <!-- Kemampuan Memahami Bacaan dan Menulis content -->
+                                <div class="sub-tab-pane" id="kmbm">
+                                    <h4>Kemampuan Memahami Bacaan dan Menulis</h4>
+                                    <!-- video here -->
+                                </div>
+                                <!-- Pengetahuan Kuantitatif content -->
+                                <div class="sub-tab-pane" id="pk">
+                                    <h4>Pengetahuan Kuantitatif</h4>
+                                    <!-- video here -->
+                                </div>
+                                <!-- Tes Literasi content -->
+                                <div class="sub-tab-pane">
+                                    <h3>Tes Literasi</h3>
+                                    <nav class="sub-tab">
+                                        <ul>
+                                            <li><a href="#" class="active">Literasi Bahasa Indonesia</a></li>
+                                            <li><a href="#">Literasi Bahasa Inggris</a></li>
+                                            <li><a href="#">Penalaran Matematika</a></li>
+                                        </ul>
+                                    </nav>
+                                    <div class="sub-tab-content">
+                                        <!-- Literasi Bahasa Indonesia content -->
+                                        <div class="sub-tab-pane">
+                                            <h3>Literasi Bahasa Indonesia</h3>
+                                            <!-- video here -->
+                                        </div>
+                                        <!-- Literasi Bahasa Inggris content -->
+                                        <div class="sub-tab-pane active" id="literasi-bahasa-inggris">
+                                            <h3>Literasi Bahasa Inggris</h3>
+                                            <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/I7M8aiyA7cE"
+                                                title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                        </div>
+                                        <!-- Penalaran Matematika content -->
+                                        <div class="sub-tab-pane" id="penalaran-matematika">
+                                            <h3>Penalaran Matematika</h3>
+                                            <!-- video here -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer id="kontak">
+        <ul>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Kebijakan Privasi</a></li>
+            <li><a href="#">Syarat dan Ketentuan</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+        <p>&copy; 2023 EduSpace. All Rights Reserved.</p>
+    </footer>
+    <script src="script-class.js"></script>
+</body>
+
+</html>
